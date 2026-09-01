@@ -111,6 +111,8 @@ h1 {
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto; /* row 1 = weekday header, sized to content */
+  grid-auto-rows: 116px; /* week rows = fixed height, so all cells match */
   border: 1px solid var(--line);
   border-radius: 8px;
   overflow: hidden;
@@ -128,10 +130,19 @@ h1 {
 }
 
 .cell {
-  min-height: 96px;
   border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  overflow: hidden; /* keep every cell the fixed row height */
+}
+
+.cell-events {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto; /* days with many events scroll instead of stretching */
   display: flex;
   flex-direction: column;
   gap: 3px;
@@ -173,11 +184,12 @@ h1 {
   background: color-mix(in srgb, var(--team) 12%, #fff);
   color: var(--fg);
   border-radius: 3px;
-  padding: 2px 5px;
+  padding: 2px 4px;
   cursor: pointer;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  flex: 0 0 auto;
 }
 
 .chip:hover {
@@ -259,8 +271,8 @@ footer {
 }
 
 @media (max-width: 640px) {
-  .cell {
-    min-height: 70px;
+  .grid {
+    grid-auto-rows: 84px;
   }
   .chip {
     font-size: 0.62rem;

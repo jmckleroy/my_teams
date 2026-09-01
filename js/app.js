@@ -189,6 +189,7 @@
         (key === todayKey ? " today" : "");
       html += '<div class="' + cls + '">';
       html += '<div class="date">' + c.d + "</div>";
+      html += '<div class="cell-events">';
       dayEvents.forEach(function (e) {
         var color = TEAM_COLORS[e.team] || "#555";
         var past = new Date(e.start_utc).getTime() < now ? " past" : "";
@@ -213,7 +214,8 @@
           esc(chipLabel(e)) +
           "</button>";
       });
-      html += "</div>";
+      html += "</div>"; // .cell-events
+      html += "</div>"; // .cell
     });
 
     gridEl.innerHTML = html;
@@ -232,14 +234,19 @@
     renderDetail();
   }
 
+  var SHORT_SESSION = {
+    Race: "",
+    Qualifying: "Quali",
+    Sprint: "Sprint",
+    "Sprint Qualifying": "Sprint Q",
+  };
+
   function chipLabel(e) {
-    // "Australian Grand Prix — Race" -> "Australian GP · Race" style short label
+    // Keep it short - cells are a fixed size and long labels just truncate.
     if (e.sport === "Formula 1") {
-      var gp = (e.title.split(" — ")[0] || e.title).replace(
-        "Grand Prix",
-        "GP"
-      );
-      return gp + " · " + e.session;
+      var gp = (e.title.split(" — ")[0] || e.title).replace("Grand Prix", "GP");
+      var s = SHORT_SESSION[e.session];
+      return s ? gp + " · " + s : gp;
     }
     return e.title;
   }
