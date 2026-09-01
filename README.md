@@ -27,12 +27,20 @@ with no server. `data/events.json` is the same data for later phases.
 ## Layout
 
 ```
-index.html            page shell
-css/styles.css         placeholder styling (design direction TBD)
-js/app.js              renders events, does timezone conversion in the browser
-scripts/fetch-f1.mjs   Ferrari schedule from jolpica-f1 -> normalized events
-data/                  generated event data + .cache/ of raw API responses
+index.html                     page shell
+css/styles.css                 styling (month grid view)
+js/app.js                      month calendar grid, filters, detail panel,
+                               browser-side timezone conversion
+scripts/fetch-f1.mjs           Ferrari schedule from jolpica-f1 -> events
+data/broadcast-overrides.json  hand-edited TV/stream per event (not generated)
+data/                          generated event data + .cache/ of raw responses
 ```
+
+## Broadcast / TV data
+
+No free sports API carries this. Edit `data/broadcast-overrides.json` by hand:
+`events` maps an event id to a network; `defaults` sets a per-competition
+fallback; anything unset shows as "TBD". Re-run the fetch to apply.
 
 ## Event schema
 
