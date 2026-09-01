@@ -1,0 +1,11 @@
+{
+  "name": "sports-calendar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal sports calendar - Phase 1 (local static site)",
+  "type": "module",
+  "scripts": {
+    "fetch:f1": "node scripts/fetch-f1.mjs",
+    "fetch:all": "node scripts/fetch-f1.mjs"
+  }
+}

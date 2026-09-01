@@ -1,0 +1,130 @@
+/* Phase 1 placeholder styling only - kept deliberately plain until visual
+   design direction is decided. */
+
+:root {
+  --fg: #1a1a1a;
+  --muted: #666;
+  --line: #e2e2e2;
+  --accent: #b31313;
+  --bg: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 15px/1.5 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+header,
+main,
+footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  padding-top: 32px;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 1.6rem;
+}
+
+#subtitle {
+  margin: 0;
+  color: var(--muted);
+}
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0;
+}
+
+.filter {
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+  font: inherit;
+}
+
+.filter.active {
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+h2.day {
+  margin: 28px 0 10px;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 4px;
+}
+
+.event {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+}
+
+.event.past {
+  opacity: 0.5;
+}
+
+.event-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.badge {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: var(--accent);
+  color: #fff;
+  padding: 2px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.event-meta {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 2px 12px;
+  margin: 0;
+}
+
+.event-meta dt {
+  color: var(--muted);
+}
+
+.event-meta dd {
+  margin: 0;
+}
+
+footer {
+  margin: 40px auto;
+  color: var(--muted);
+  font-size: 0.85rem;
+}

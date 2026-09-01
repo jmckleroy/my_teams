@@ -1,0 +1,653 @@
+{
+  "source": "jolpica-f1",
+  "season": "2026",
+  "generated": "2026-09-01T01:14:50.995Z",
+  "events": [
+    {
+      "id": "f1-2026-r1-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Australian Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-03-07T05:00:00Z",
+      "venue": {
+        "name": "Albert Park Grand Prix Circuit",
+        "city": "Melbourne",
+        "country": "Australia",
+        "tz": "Australia/Melbourne"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Australian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r1-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Australian Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-03-08T04:00:00Z",
+      "venue": {
+        "name": "Albert Park Grand Prix Circuit",
+        "city": "Melbourne",
+        "country": "Australia",
+        "tz": "Australia/Melbourne"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Australian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r2-sprint-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint Qualifying",
+      "title": "Chinese Grand Prix — Sprint Qualifying",
+      "competitors": null,
+      "start_utc": "2026-03-13T07:30:00Z",
+      "venue": {
+        "name": "Shanghai International Circuit",
+        "city": "Shanghai",
+        "country": "China",
+        "tz": "Asia/Shanghai"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r2-sprint",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint",
+      "title": "Chinese Grand Prix — Sprint",
+      "competitors": null,
+      "start_utc": "2026-03-14T03:00:00Z",
+      "venue": {
+        "name": "Shanghai International Circuit",
+        "city": "Shanghai",
+        "country": "China",
+        "tz": "Asia/Shanghai"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r2-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Chinese Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-03-14T07:00:00Z",
+      "venue": {
+        "name": "Shanghai International Circuit",
+        "city": "Shanghai",
+        "country": "China",
+        "tz": "Asia/Shanghai"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r2-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Chinese Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-03-15T07:00:00Z",
+      "venue": {
+        "name": "Shanghai International Circuit",
+        "city": "Shanghai",
+        "country": "China",
+        "tz": "Asia/Shanghai"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r3-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Japanese Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-03-28T06:00:00Z",
+      "venue": {
+        "name": "Suzuka Circuit",
+        "city": "Suzuka",
+        "country": "Japan",
+        "tz": "Asia/Tokyo"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Japanese_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r3-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Japanese Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-03-29T05:00:00Z",
+      "venue": {
+        "name": "Suzuka Circuit",
+        "city": "Suzuka",
+        "country": "Japan",
+        "tz": "Asia/Tokyo"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Japanese_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r4-sprint-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint Qualifying",
+      "title": "Miami Grand Prix — Sprint Qualifying",
+      "competitors": null,
+      "start_utc": "2026-05-01T20:30:00Z",
+      "venue": {
+        "name": "Miami International Autodrome",
+        "city": "Miami",
+        "country": "USA",
+        "tz": "America/New_York"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r4-sprint",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint",
+      "title": "Miami Grand Prix — Sprint",
+      "competitors": null,
+      "start_utc": "2026-05-02T16:00:00Z",
+      "venue": {
+        "name": "Miami International Autodrome",
+        "city": "Miami",
+        "country": "USA",
+        "tz": "America/New_York"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r4-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Miami Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-05-02T20:00:00Z",
+      "venue": {
+        "name": "Miami International Autodrome",
+        "city": "Miami",
+        "country": "USA",
+        "tz": "America/New_York"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r4-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Miami Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-05-03T20:00:00Z",
+      "venue": {
+        "name": "Miami International Autodrome",
+        "city": "Miami",
+        "country": "USA",
+        "tz": "America/New_York"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r5-sprint-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint Qualifying",
+      "title": "Canadian Grand Prix — Sprint Qualifying",
+      "competitors": null,
+      "start_utc": "2026-05-22T20:30:00Z",
+      "venue": {
+        "name": "Circuit Gilles Villeneuve",
+        "city": "Montreal",
+        "country": "Canada",
+        "tz": "America/Toronto"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Canadian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r5-sprint",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint",
+      "title": "Canadian Grand Prix — Sprint",
+      "competitors": null,
+      "start_utc": "2026-05-23T16:00:00Z",
+      "venue": {
+        "name": "Circuit Gilles Villeneuve",
+        "city": "Montreal",
+        "country": "Canada",
+        "tz": "America/Toronto"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Canadian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r5-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Canadian Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-05-23T20:00:00Z",
+      "venue": {
+        "name": "Circuit Gilles Villeneuve",
+        "city": "Montreal",
+        "country": "Canada",
+        "tz": "America/Toronto"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Canadian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r5-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Canadian Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-05-24T20:00:00Z",
+      "venue": {
+        "name": "Circuit Gilles Villeneuve",
+        "city": "Montreal",
+        "country": "Canada",
+        "tz": "America/Toronto"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Canadian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r6-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Monaco Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-06-06T14:00:00Z",
+      "venue": {
+        "name": "Circuit de Monaco",
+        "city": "Monte Carlo",
+        "country": "Monaco",
+        "tz": "Europe/Monaco"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Monaco_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r6-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Monaco Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-06-07T13:00:00Z",
+      "venue": {
+        "name": "Circuit de Monaco",
+        "city": "Monte Carlo",
+        "country": "Monaco",
+        "tz": "Europe/Monaco"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Monaco_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r7-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Barcelona Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-06-13T14:00:00Z",
+      "venue": {
+        "name": "Circuit de Barcelona-Catalunya",
+        "city": "Barcelona",
+        "country": "Spain",
+        "tz": "Europe/Madrid"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Barcelona-Catalunya"
+    },
+    {
+      "id": "f1-2026-r7-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Barcelona Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-06-14T13:00:00Z",
+      "venue": {
+        "name": "Circuit de Barcelona-Catalunya",
+        "city": "Barcelona",
+        "country": "Spain",
+        "tz": "Europe/Madrid"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Barcelona-Catalunya"
+    },
+    {
+      "id": "f1-2026-r8-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Austrian Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-06-27T14:00:00Z",
+      "venue": {
+        "name": "Red Bull Ring",
+        "city": "Spielberg",
+        "country": "Austria",
+        "tz": "Europe/Vienna"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Austrian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r8-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Austrian Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-06-28T13:00:00Z",
+      "venue": {
+        "name": "Red Bull Ring",
+        "city": "Spielberg",
+        "country": "Austria",
+        "tz": "Europe/Vienna"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Austrian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r9-sprint-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint Qualifying",
+      "title": "British Grand Prix — Sprint Qualifying",
+      "competitors": null,
+      "start_utc": "2026-07-03T15:30:00Z",
+      "venue": {
+        "name": "Silverstone Circuit",
+        "city": "Silverstone",
+        "country": "UK",
+        "tz": "Europe/London"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_British_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r9-sprint",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint",
+      "title": "British Grand Prix — Sprint",
+      "competitors": null,
+      "start_utc": "2026-07-04T11:00:00Z",
+      "venue": {
+        "name": "Silverstone Circuit",
+        "city": "Silverstone",
+        "country": "UK",
+        "tz": "Europe/London"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_British_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r9-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "British Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-07-04T15:00:00Z",
+      "venue": {
+        "name": "Silverstone Circuit",
+        "city": "Silverstone",
+        "country": "UK",
+        "tz": "Europe/London"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_British_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r9-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "British Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-07-05T14:00:00Z",
+      "venue": {
+        "name": "Silverstone Circuit",
+        "city": "Silverstone",
+        "country": "UK",
+        "tz": "Europe/London"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_British_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r10-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Belgian Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-07-18T14:00:00Z",
+      "venue": {
+        "name": "Circuit de Spa-Francorchamps",
+        "city": "Spa",
+        "country": "Belgium",
+        "tz": "Europe/Brussels"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Belgian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r10-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Belgian Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-07-19T13:00:00Z",
+      "venue": {
+        "name": "Circuit de Spa-Francorchamps",
+        "city": "Spa",
+        "country": "Belgium",
+        "tz": "Europe/Brussels"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Belgian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r11-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Hungarian Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-07-25T14:00:00Z",
+      "venue": {
+        "name": "Hungaroring",
+        "city": "Budapest",
+        "country": "Hungary",
+        "tz": "Europe/Budapest"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Hungarian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r11-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Hungarian Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-07-26T13:00:00Z",
+      "venue": {
+        "name": "Hungaroring",
+        "city": "Budapest",
+        "country": "Hungary",
+        "tz": "Europe/Budapest"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Hungarian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r12-sprint-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint Qualifying",
+      "title": "Dutch Grand Prix — Sprint Qualifying",
+      "competitors": null,
+      "start_utc": "2026-08-21T14:30:00Z",
+      "venue": {
+        "name": "Circuit Park Zandvoort",
+        "city": "Zandvoort",
+        "country": "Netherlands",
+        "tz": "Europe/Amsterdam"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r12-sprint",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint",
+      "title": "Dutch Grand Prix — Sprint",
+      "competitors": null,
+      "start_utc": "2026-08-22T10:00:00Z",
+      "venue": {
+        "name": "Circuit Park Zandvoort",
+        "city": "Zandvoort",
+        "country": "Netherlands",
+        "tz": "Europe/Amsterdam"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r12-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Dutch Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-08-22T14:00:00Z",
+      "venue": {
+        "name": "Circuit Park Zandvoort",
+        "city": "Zandvoort",
+        "country": "Netherlands",
+        "tz": "Europe/Amsterdam"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r12-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Dutch Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-08-23T13:00:00Z",
+      "venue": {
+        "name": "Circuit Park Zandvoort",
+        "city": "Zandvoort",
+        "country": "Netherlands",
+        "tz": "Europe/Amsterdam"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix"
+    }
+  ]
+}
