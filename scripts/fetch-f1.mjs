@@ -58,10 +58,25 @@ const CIRCUIT_TZ = {
   madring: "Europe/Madrid",
 };
 
-// jolpica has no broadcast data and no free sports API does. In the US the F1
-// TV rights are held by ESPN (races air across ESPN / ESPN2 / ABC). This is a
-// manual default; adjust here if it changes.
-const US_F1_BROADCAST = "ESPN / ABC (US)";
+// No free sports API carries broadcast data. It's supplied by hand in
+// data/broadcast-overrides.json (per-event, with a per-competition default).
+const OVERRIDES_FILE = path.join(DATA_DIR, "broadcast-overrides.json");
+
+async function loadBroadcastOverrides() {
+  try {
+    return JSON.parse(await readFile(OVERRIDES_FILE, "utf8"));
+  } catch {
+    return { defaults: {}, events: {} };
+  }
+}
+
+function resolveBroadcast(overrides, eventId, competition) {
+  return (
+    overrides.events?.[eventId] ??
+    overrides.defaults?.[competition] ??
+    null
+  );
+}
 
 // Which weekend sessions to include. Practice sessions are intentionally excluded
 // (Phase 1 scope: races, qualifying, sprint).
@@ -105,7 +120,7 @@ function toIsoUtc(date, time) {
   return `${date}T${time.replace(/Z?$/, "Z")}`;
 }
 
-function buildEvents(apiBody) {
+function buildEvents(apiBody, overrides) {
   const races = apiBody?.MRData?.RaceTable?.Races ?? [];
   const events = [];
 
@@ -126,19 +141,22 @@ function buildEvents(apiBody) {
           : race[session.key];
       if (!block?.date || !block?.time) continue;
 
+      const id = `f1-${SEASON}-r${race.round}-${session.label
+        .toLowerCase()
+        .replace(/\s+/g, "-")}`;
+      const competition = "FIA Formula 1 World Championship";
+
       events.push({
-        id: `f1-${SEASON}-r${race.round}-${session.label
-          .toLowerCase()
-          .replace(/\s+/g, "-")}`,
+        id,
         sport: "Formula 1",
         team: "Ferrari",
-        competition: "FIA Formula 1 World Championship",
+        competition,
         session: session.label,
         title: `${race.raceName} — ${session.label}`,
         competitors: null,
         start_utc: toIsoUtc(block.date, block.time),
         venue,
-        broadcast: US_F1_BROADCAST,
+        broadcast: resolveBroadcast(overrides, id, competition),
         source: "jolpica-f1",
         source_url: race.url ?? null,
       });
@@ -152,7 +170,8 @@ function buildEvents(apiBody) {
 async function main() {
   console.log(`Fetching Ferrari ${SEASON} F1 schedule...`);
   const body = await fetchWithCache(API);
-  const f1Events = buildEvents(body);
+  const overrides = await loadBroadcastOverrides();
+  const f1Events = buildEvents(body, overrides);
   console.log(`  -> ${f1Events.length} events`);
 
   await mkdir(DATA_DIR, { recursive: true });

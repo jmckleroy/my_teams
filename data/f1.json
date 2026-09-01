@@ -1,7 +1,7 @@
 {
   "source": "jolpica-f1",
   "season": "2026",
-  "generated": "2026-09-01T01:14:50.995Z",
+  "generated": "2026-09-01T01:20:47.851Z",
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -37,7 +37,7 @@
         "country": "Australia",
         "tz": "Australia/Melbourne"
       },
-      "broadcast": "ESPN / ABC (US)",
+      "broadcast": "ESPN",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_Australian_Grand_Prix"
     },

@@ -1,0 +1,9 @@
+{
+  "_comment": "Hand-edited. TV/stream network per event. Not overwritten by fetch scripts. Lookup order: events[<event id>] -> defaults[<competition>] -> null (shown as 'TBD').",
+  "defaults": {
+    "FIA Formula 1 World Championship": "ESPN / ABC (US)"
+  },
+  "events": {
+    "f1-2026-r1-race": "ESPN"
+  }
+}
