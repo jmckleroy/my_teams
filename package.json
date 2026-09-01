@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "fetch:f1": "node scripts/fetch-f1.mjs",
-    "fetch:all": "node scripts/fetch-f1.mjs"
+    "fetch:nfl": "node scripts/fetch-nfl.mjs",
+    "fetch:all": "node scripts/fetch-f1.mjs && node scripts/fetch-nfl.mjs"
   }
 }

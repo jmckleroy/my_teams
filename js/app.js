@@ -248,7 +248,7 @@
       var s = SHORT_SESSION[e.session];
       return s ? gp + " · " + s : gp;
     }
-    return e.title;
+    return e.short_title || e.title;
   }
 
   function renderDetail() {
@@ -263,11 +263,10 @@
       detailEl.hidden = true;
       return;
     }
-    var place = [e.venue && e.venue.city, e.venue && e.venue.country]
-      .filter(Boolean)
-      .join(", ");
-    var localTime =
-      e.venue && e.venue.tz ? fmtTime(e.start_utc, e.venue.tz, true) : null;
+    var v = e.venue || {};
+    var place = [v.city, v.region || v.country].filter(Boolean).join(", ");
+    var showLocal = v.tz && v.tz !== VIEWER_TZ;
+    var localTime = showLocal ? fmtTime(e.start_utc, v.tz, true) : null;
 
     detailEl.hidden = false;
     detailEl.style.setProperty("--team", TEAM_COLORS[e.team] || "#555");
@@ -281,12 +280,14 @@
       "</h2>" +
       '<dl class="detail-meta">' +
       row("Competition", esc(e.competition)) +
-      (e.competitors ? row("Competitors", esc(e.competitors.join(" vs "))) : "") +
+      (e.session && e.title.indexOf(e.session) === -1
+        ? row("Round", esc(e.session))
+        : "") +
       row("Your time", esc(fmtTime(e.start_utc, VIEWER_TZ, true)) + " (" + esc(VIEWER_TZ) + ")") +
       (localTime
-        ? row("Local time", esc(localTime) + " (" + esc(e.venue.tz) + ")")
+        ? row("Local time", esc(localTime) + " (" + esc(v.tz) + ")")
         : "") +
-      row("Venue", esc(e.venue && e.venue.name)) +
+      row("Venue", esc(v.name)) +
       row("City", esc(place)) +
       row("TV / stream", esc(e.broadcast) || "TBD") +
       "</dl>";

@@ -8,14 +8,17 @@ HTML/CSS/JS, event data in a JSON file, opened directly in the browser.
 | Team              | Scope                                             | Data source            | Status         |
 | ----------------- | ------------------------------------------------- | ---------------------- | -------------- |
 | Ferrari (F1)      | Races, qualifying, sprint + sprint qualifying     | jolpica-f1 API         | ✅ working      |
-| Tennessee Titans  | NFL regular + post season                         | ESPN public endpoints  | ⏳ not started  |
+| Tennessee Titans  | NFL preseason + regular season + playoffs         | ESPN public site API   | ✅ working      |
 | FC Bayern Munich  | All competitions (BL, UCL, DFB-Pokal, Supercup…)  | Firecrawl scrape       | ⏳ not started  |
 
 ## Usage
 
 ```sh
-# Refresh event data (writes data/f1.json, data/events.json, data/events.js)
+# Refresh event data (each writes data/<source>.json then rebuilds
+# data/events.json + data/events.js)
 npm run fetch:f1
+npm run fetch:nfl
+npm run fetch:all   # both
 
 # View: open index.html directly in a browser, or serve the folder
 npx serve .
@@ -31,16 +34,20 @@ index.html                     page shell
 css/styles.css                 styling (month grid view)
 js/app.js                      month calendar grid, filters, detail panel,
                                browser-side timezone conversion
+scripts/lib/common.mjs         shared: cache, broadcast lookup, feed merge
 scripts/fetch-f1.mjs           Ferrari schedule from jolpica-f1 -> events
+scripts/fetch-nfl.mjs          Titans schedule from ESPN -> events
 data/broadcast-overrides.json  hand-edited TV/stream per event (not generated)
 data/                          generated event data + .cache/ of raw responses
 ```
 
 ## Broadcast / TV data
 
-No free sports API carries this. Edit `data/broadcast-overrides.json` by hand:
-`events` maps an event id to a network; `defaults` sets a per-competition
-fallback; anything unset shows as "TBD". Re-run the fetch to apply.
+Edit `data/broadcast-overrides.json` by hand. Lookup order per event:
+per-event `events[<id>]` → per-competition `defaults[<competition>]` → the
+value from the source API → "TBD". F1 has no broadcast in its API so it relies
+on `defaults`; NFL games carry a real network from ESPN, so only add an NFL
+entry to correct one. Re-run the fetch to apply.
 
 ## Event schema
 
@@ -50,11 +57,12 @@ fallback; anything unset shows as "TBD". Re-run the fetch to apply.
   "sport": "Formula 1",
   "team": "Ferrari",
   "competition": "FIA Formula 1 World Championship",
-  "session": "Race",
+  "session": "Race",                // F1 session type, or NFL week text
   "title": "Australian Grand Prix — Race",
-  "competitors": null,              // teams/competitors, when applicable
+  "competitors": null,              // ["Away", "Home"] for NFL; null for F1
+  "short_title": null,              // NFL: "NYJ @ TEN"; used for calendar chips
   "start_utc": "2026-03-08T04:00:00Z",
-  "venue": { "name": "...", "city": "...", "country": "...", "tz": "Australia/Melbourne" },
+  "venue": { "name": "...", "city": "...", "region": null, "country": "...", "tz": "Australia/Melbourne" },
   "broadcast": "ESPN / ABC (US)",
   "source": "jolpica-f1",
   "source_url": "https://en.wikipedia.org/wiki/2026_Australian_Grand_Prix"
@@ -63,7 +71,9 @@ fallback; anything unset shows as "TBD". Re-run the fetch to apply.
 
 ## Known gaps
 
-- **Broadcast info** is a manual default — no free sports API provides it. F1 US
-  rights are ESPN's; set in `scripts/fetch-f1.mjs`.
+- **F1 broadcast** comes from `data/broadcast-overrides.json`, not an API (see above).
 - **2026 F1 calendar** is only partially published upstream (~12 rounds so far);
   re-run the fetch later to pick up the rest.
+- **NFL timezones** are derived from the home team (map in `scripts/fetch-nfl.mjs`),
+  with a venue-name override for international games.
+- **ESPN's NFL API is undocumented** — endpoint shape could change without notice.

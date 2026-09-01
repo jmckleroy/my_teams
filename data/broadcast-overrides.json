@@ -3,6 +3,7 @@
   "defaults": {
     "FIA Formula 1 World Championship": "ESPN / ABC (US)"
   },
+  "_note_nfl": "NFL games carry a real TV network from ESPN; only add NFL entries here to correct one.",
   "events": {
     "f1-2026-r1-race": "ESPN"
   }
