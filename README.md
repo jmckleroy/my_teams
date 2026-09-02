@@ -9,7 +9,7 @@ HTML/CSS/JS, event data in a JSON file, opened directly in the browser.
 | ----------------- | ------------------------------------------------- | ---------------------- | -------------- |
 | Ferrari (F1)      | Races, qualifying, sprint + sprint qualifying     | jolpica-f1 API         | ✅ working      |
 | Tennessee Titans  | NFL preseason + regular season + playoffs         | ESPN public site API   | ✅ working      |
-| FC Bayern Munich  | All competitions (BL, UCL, DFB-Pokal, Supercup…)  | Firecrawl scrape       | ⏳ not started  |
+| FC Bayern Munich  | Bundesliga, UCL, DFB-Pokal, DFL-Supercup          | ESPN public site API   | ✅ working      |
 
 ## Usage
 
@@ -18,7 +18,8 @@ HTML/CSS/JS, event data in a JSON file, opened directly in the browser.
 # data/events.json + data/events.js)
 npm run fetch:f1
 npm run fetch:nfl
-npm run fetch:all   # both
+npm run fetch:bayern
+npm run fetch:all   # all three
 
 # View: open index.html directly in a browser, or serve the folder
 npx serve .
@@ -37,6 +38,7 @@ js/app.js                      month calendar grid, filters, detail panel,
 scripts/lib/common.mjs         shared: cache, broadcast lookup, feed merge
 scripts/fetch-f1.mjs           Ferrari schedule from jolpica-f1 -> events
 scripts/fetch-nfl.mjs          Titans schedule from ESPN -> events
+scripts/fetch-bayern.mjs       Bayern fixtures (all competitions) from ESPN -> events
 data/broadcast-overrides.json  hand-edited TV/stream per event (not generated)
 data/                          generated event data + .cache/ of raw responses
 ```
@@ -47,7 +49,11 @@ Edit `data/broadcast-overrides.json` by hand. Lookup order per event:
 per-event `events[<id>]` → per-competition `defaults[<competition>]` → the
 value from the source API → "TBD". F1 has no broadcast in its API so it relies
 on `defaults`; NFL games carry a real network from ESPN, so only add an NFL
-entry to correct one. Re-run the fetch to apply.
+entry to correct one. For Bayern the ESPN API carries the right per-match value
+where it has one: UCL is a `Paramount+` default, and Bundesliga / Supercup
+matches (Versant's rights from 2026-27) come through as `USA Network` or
+`Fandango` once ESPN assigns them — blank ("TBD") until then. Re-run the fetch
+to apply.
 
 ## Event schema
 
@@ -57,10 +63,10 @@ entry to correct one. Re-run the fetch to apply.
   "sport": "Formula 1",
   "team": "Ferrari",
   "competition": "FIA Formula 1 World Championship",
-  "session": "Race",                // F1 session type, or NFL week text
+  "session": "Race",                // F1 session type, NFL week text, or cup round; null otherwise
   "title": "Australian Grand Prix — Race",
-  "competitors": null,              // ["Away", "Home"] for NFL; null for F1
-  "short_title": null,              // NFL: "NYJ @ TEN"; used for calendar chips
+  "competitors": null,              // ["Away", "Home"] for NFL/soccer; null for F1
+  "short_title": null,              // NFL: "NYJ @ TEN"; soccer: "VFB @ FCB"; used for calendar chips
   "start_utc": "2026-03-08T04:00:00Z",
   "venue": { "name": "...", "city": "...", "region": null, "country": "...", "tz": "Australia/Melbourne" },
   "broadcast": "ESPN / ABC (US)",
@@ -76,4 +82,10 @@ entry to correct one. Re-run the fetch to apply.
   re-run the fetch later to pick up the rest.
 - **NFL timezones** are derived from the home team (map in `scripts/fetch-nfl.mjs`),
   with a venue-name override for international games.
-- **ESPN's NFL API is undocumented** — endpoint shape could change without notice.
+- **Bayern timezones** are derived from the venue country (map in
+  `scripts/fetch-bayern.mjs`) — fine for European football, which is single-tz
+  per country.
+- **DFB-Pokal** only publishes one round at a time; re-run the fetch after each
+  draw to pick up later rounds. Bayern knockout ties in the UCL appear the same way.
+- **ESPN's site API is undocumented** (both NFL and soccer) — endpoint shape
+  could change without notice.

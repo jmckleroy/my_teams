@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-01T02:12:23.787Z",
+  "generated": "2026-09-02T00:43:16.227Z",
   "viewer_tz": "America/Chicago",
-  "count": 54,
+  "count": 98,
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -655,6 +655,30 @@
       "source_url": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix"
     },
     {
+      "id": "bayern-401873679",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "DFL-Supercup",
+      "session": null,
+      "title": "Bayern Munich at Borussia Dortmund",
+      "short_title": "FCB @ DOR",
+      "competitors": [
+        "Bayern Munich",
+        "Borussia Dortmund"
+      ],
+      "start_utc": "2026-08-22T18:30:00Z",
+      "venue": {
+        "name": "Signal Iduna Park",
+        "city": "Aue",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": "USA Network",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401873679/bayern-munich-borussia-dortmund"
+    },
+    {
       "id": "f1-2026-r12-race",
       "sport": "Formula 1",
       "team": "Ferrari",
@@ -698,6 +722,30 @@
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873297"
     },
     {
+      "id": "bayern-401884817",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "VfB Stuttgart at Bayern Munich",
+      "short_title": "VFB @ FCB",
+      "competitors": [
+        "VfB Stuttgart",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-08-28T18:30:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": "Fandango",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884817/vfb-stuttgart-bayern-munich"
+    },
+    {
       "id": "nfl-401874394",
       "sport": "NFL",
       "team": "Tennessee Titans",
@@ -722,6 +770,102 @@
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401874394"
     },
     {
+      "id": "bayern-401875174",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "DFB-Pokal",
+      "session": "First Round",
+      "title": "Bayern Munich at VfL Osnabruck",
+      "short_title": "FCB @ OSN",
+      "competitors": [
+        "Bayern Munich",
+        "VfL Osnabruck"
+      ],
+      "start_utc": "2026-09-02T18:45:00Z",
+      "venue": {
+        "name": "Stadion an der Bremer Brücke'",
+        "city": null,
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875174/bayern-munich-vfl-osnabruck"
+    },
+    {
+      "id": "bayern-401884801",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at Schalke 04",
+      "short_title": "FCB @ S04",
+      "competitors": [
+        "Bayern Munich",
+        "Schalke 04"
+      ],
+      "start_utc": "2026-09-05T16:30:00Z",
+      "venue": {
+        "name": "Veltins Arena",
+        "city": "Gelsenkirchen",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": "USA Network",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884801/bayern-munich-schalke-04"
+    },
+    {
+      "id": "bayern-401915443",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "UEFA Champions League",
+      "session": "League Phase",
+      "title": "Bodo/Glimt at Bayern Munich",
+      "short_title": "BODO @ FCB",
+      "competitors": [
+        "Bodo/Glimt",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-09-10T19:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": "Paramount+ (US)",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915443/bodoglimt-bayern-munich"
+    },
+    {
+      "id": "bayern-401884791",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at SV Elversberg",
+      "short_title": "FCB @ ELV",
+      "competitors": [
+        "Bayern Munich",
+        "SV Elversberg"
+      ],
+      "start_utc": "2026-09-13T15:30:00Z",
+      "venue": {
+        "name": "URSAPHARM-Arena an der Kaiserlinde",
+        "city": "Spiesen-Elversberg",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884791/bayern-munich-sv-elversberg"
+    },
+    {
       "id": "nfl-401872924",
       "sport": "NFL",
       "team": "Tennessee Titans",
@@ -744,6 +888,30 @@
       "broadcast": "CBS",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401872924"
+    },
+    {
+      "id": "bayern-401884790",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "1. FC Union Berlin at Bayern Munich",
+      "short_title": "FCU @ FCB",
+      "competitors": [
+        "1. FC Union Berlin",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-09-18T18:30:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884790/1-fc-union-berlin-bayern-munich"
     },
     {
       "id": "nfl-401872939",
@@ -818,6 +986,30 @@
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401872973"
     },
     {
+      "id": "bayern-401884777",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at FC Augsburg",
+      "short_title": "FCB @ FCA",
+      "competitors": [
+        "Bayern Munich",
+        "FC Augsburg"
+      ],
+      "start_utc": "2026-10-10T18:00:00Z",
+      "venue": {
+        "name": "WWK Arena",
+        "city": "Augsburg",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884777/bayern-munich-fc-augsburg"
+    },
+    {
       "id": "nfl-401872984",
       "sport": "NFL",
       "team": "Tennessee Titans",
@@ -840,6 +1032,54 @@
       "broadcast": "CBS",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401872984"
+    },
+    {
+      "id": "bayern-401915411",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "UEFA Champions League",
+      "session": "League Phase",
+      "title": "Bayern Munich at Viking FK",
+      "short_title": "FCB @ VIK",
+      "competitors": [
+        "Bayern Munich",
+        "Viking FK"
+      ],
+      "start_utc": "2026-10-13T19:00:00Z",
+      "venue": {
+        "name": "Viking Stadion",
+        "city": "Stavanger",
+        "region": null,
+        "country": "Norway",
+        "tz": "Europe/Oslo"
+      },
+      "broadcast": "Paramount+ (US)",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915411/bayern-munich-viking-fk"
+    },
+    {
+      "id": "bayern-401884772",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "RB Leipzig at Bayern Munich",
+      "short_title": "RBL @ FCB",
+      "competitors": [
+        "RB Leipzig",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-10-17T18:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884772/rb-leipzig-bayern-munich"
     },
     {
       "id": "nfl-401873003",
@@ -866,6 +1106,54 @@
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873003"
     },
     {
+      "id": "bayern-401915312",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "UEFA Champions League",
+      "session": "League Phase",
+      "title": "Arsenal at Bayern Munich",
+      "short_title": "ARS @ FCB",
+      "competitors": [
+        "Arsenal",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-10-21T19:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": "Paramount+ (US)",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915312/arsenal-bayern-munich"
+    },
+    {
+      "id": "bayern-401884759",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at SC Freiburg",
+      "short_title": "FCB @ SCF",
+      "competitors": [
+        "Bayern Munich",
+        "SC Freiburg"
+      ],
+      "start_utc": "2026-10-24T18:00:00Z",
+      "venue": {
+        "name": "Europa-Park Stadion",
+        "city": "Freiburg im Breisgau",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884759/bayern-munich-sc-freiburg"
+    },
+    {
       "id": "nfl-401873013",
       "sport": "NFL",
       "team": "Tennessee Titans",
@@ -888,6 +1176,30 @@
       "broadcast": "CBS",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873013"
+    },
+    {
+      "id": "bayern-401884754",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Borussia Dortmund at Bayern Munich",
+      "short_title": "DOR @ FCB",
+      "competitors": [
+        "Borussia Dortmund",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-10-31T18:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884754/borussia-dortmund-bayern-munich"
     },
     {
       "id": "nfl-401873031",
@@ -914,6 +1226,54 @@
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873031"
     },
     {
+      "id": "bayern-401915386",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "UEFA Champions League",
+      "session": "League Phase",
+      "title": "Bayern Munich at Atlético Madrid",
+      "short_title": "FCB @ ATM",
+      "competitors": [
+        "Bayern Munich",
+        "Atlético Madrid"
+      ],
+      "start_utc": "2026-11-03T20:00:00Z",
+      "venue": {
+        "name": "Riyadh Air Metropolitano",
+        "city": "Madrid",
+        "region": null,
+        "country": "Spain",
+        "tz": "Europe/Madrid"
+      },
+      "broadcast": "Paramount+ (US)",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915386/bayern-munich-atletico-madrid"
+    },
+    {
+      "id": "bayern-401884740",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at Mainz",
+      "short_title": "FCB @ M05",
+      "competitors": [
+        "Bayern Munich",
+        "Mainz"
+      ],
+      "start_utc": "2026-11-07T20:00:00Z",
+      "venue": {
+        "name": "MEWA ARENA",
+        "city": "Mainz",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884740/bayern-munich-mainz"
+    },
+    {
       "id": "nfl-401873057",
       "sport": "NFL",
       "team": "Tennessee Titans",
@@ -936,6 +1296,30 @@
       "broadcast": "FOX",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873057"
+    },
+    {
+      "id": "bayern-401884736",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "FC Cologne at Bayern Munich",
+      "short_title": "KOE @ FCB",
+      "competitors": [
+        "FC Cologne",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-11-21T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884736/fc-cologne-bayern-munich"
     },
     {
       "id": "nfl-401873073",
@@ -962,6 +1346,54 @@
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873073"
     },
     {
+      "id": "bayern-401915377",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "UEFA Champions League",
+      "session": "League Phase",
+      "title": "Bayern Munich at Lille",
+      "short_title": "FCB @ LILL",
+      "competitors": [
+        "Bayern Munich",
+        "Lille"
+      ],
+      "start_utc": "2026-11-25T20:00:00Z",
+      "venue": {
+        "name": "Decathlon Arena - Stade Pierre-Mauroy",
+        "city": "Lille",
+        "region": null,
+        "country": "France",
+        "tz": "Europe/Paris"
+      },
+      "broadcast": "Paramount+ (US)",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915377/bayern-munich-lille"
+    },
+    {
+      "id": "bayern-401884722",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at Hamburg SV",
+      "short_title": "FCB @ HSV",
+      "competitors": [
+        "Bayern Munich",
+        "Hamburg SV"
+      ],
+      "start_utc": "2026-11-28T20:00:00Z",
+      "venue": {
+        "name": "Volksparkstadion",
+        "city": "Hamburg Norderstedt",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884722/bayern-munich-hamburg-sv"
+    },
+    {
       "id": "nfl-401873090",
       "sport": "NFL",
       "team": "Tennessee Titans",
@@ -984,6 +1416,30 @@
       "broadcast": "CBS",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873090"
+    },
+    {
+      "id": "bayern-401884718",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "SC Paderborn 07 at Bayern Munich",
+      "short_title": "SCP @ FCB",
+      "competitors": [
+        "SC Paderborn 07",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-12-05T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884718/sc-paderborn-07-bayern-munich"
     },
     {
       "id": "nfl-401873102",
@@ -1010,6 +1466,54 @@
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873102"
     },
     {
+      "id": "bayern-401915284",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "UEFA Champions League",
+      "session": "League Phase",
+      "title": "Slavia Prague at Bayern Munich",
+      "short_title": "SLP @ FCB",
+      "competitors": [
+        "Slavia Prague",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-12-08T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": "Paramount+ (US)",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915284/slavia-prague-bayern-munich"
+    },
+    {
+      "id": "bayern-401884707",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at TSG Hoffenheim",
+      "short_title": "FCB @ TSG",
+      "competitors": [
+        "Bayern Munich",
+        "TSG Hoffenheim"
+      ],
+      "start_utc": "2026-12-12T20:00:00Z",
+      "venue": {
+        "name": "PreZero Arena",
+        "city": "Sinsheim",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884707/bayern-munich-tsg-hoffenheim"
+    },
+    {
       "id": "nfl-401873117",
       "sport": "NFL",
       "team": "Tennessee Titans",
@@ -1032,6 +1536,30 @@
       "broadcast": "FOX",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873117"
+    },
+    {
+      "id": "bayern-401884700",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Werder Bremen at Bayern Munich",
+      "short_title": "SVW @ FCB",
+      "competitors": [
+        "Werder Bremen",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-12-19T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884700/werder-bremen-bayern-munich"
     },
     {
       "id": "nfl-401873131",
@@ -1106,6 +1634,30 @@
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873166"
     },
     {
+      "id": "bayern-401884687",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at Borussia Mönchengladbach",
+      "short_title": "FCB @ BMG",
+      "competitors": [
+        "Bayern Munich",
+        "Borussia Mönchengladbach"
+      ],
+      "start_utc": "2027-01-09T20:00:00Z",
+      "venue": {
+        "name": "BORUSSIA-PARK",
+        "city": "Mönchengladbach",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884687/bayern-munich-borussia-monchengladbach"
+    },
+    {
       "id": "nfl-401873187",
       "sport": "NFL",
       "team": "Tennessee Titans",
@@ -1128,6 +1680,510 @@
       "broadcast": null,
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873187"
+    },
+    {
+      "id": "bayern-401884682",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayer Leverkusen at Bayern Munich",
+      "short_title": "B04 @ FCB",
+      "competitors": [
+        "Bayer Leverkusen",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-01-13T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884682/bayer-leverkusen-bayern-munich"
+    },
+    {
+      "id": "bayern-401884669",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at Eintracht Frankfurt",
+      "short_title": "FCB @ SGE",
+      "competitors": [
+        "Bayern Munich",
+        "Eintracht Frankfurt"
+      ],
+      "start_utc": "2027-01-16T20:00:00Z",
+      "venue": {
+        "name": "Deutsche Bank Park",
+        "city": "Frankfurt",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884669/bayern-munich-eintracht-frankfurt"
+    },
+    {
+      "id": "bayern-401915357",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "UEFA Champions League",
+      "session": "League Phase",
+      "title": "Bayern Munich at Manchester United",
+      "short_title": "FCB @ MAN",
+      "competitors": [
+        "Bayern Munich",
+        "Manchester United"
+      ],
+      "start_utc": "2027-01-20T20:00:00Z",
+      "venue": {
+        "name": "Old Trafford",
+        "city": "Manchester",
+        "region": null,
+        "country": "England",
+        "tz": "Europe/London"
+      },
+      "broadcast": "Paramount+ (US)",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915357/bayern-munich-manchester-united"
+    },
+    {
+      "id": "bayern-401884664",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at VfB Stuttgart",
+      "short_title": "FCB @ VFB",
+      "competitors": [
+        "Bayern Munich",
+        "VfB Stuttgart"
+      ],
+      "start_utc": "2027-01-23T20:00:00Z",
+      "venue": {
+        "name": "MHPArena",
+        "city": "Stuttgart",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884664/bayern-munich-vfb-stuttgart"
+    },
+    {
+      "id": "bayern-401915348",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "UEFA Champions League",
+      "session": "League Phase",
+      "title": "Real Betis at Bayern Munich",
+      "short_title": "BET @ FCB",
+      "competitors": [
+        "Real Betis",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-01-27T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": "Paramount+ (US)",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915348/real-betis-bayern-munich"
+    },
+    {
+      "id": "bayern-401884655",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Schalke 04 at Bayern Munich",
+      "short_title": "S04 @ FCB",
+      "competitors": [
+        "Schalke 04",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-01-30T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884655/schalke-04-bayern-munich"
+    },
+    {
+      "id": "bayern-401884646",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "SV Elversberg at Bayern Munich",
+      "short_title": "ELV @ FCB",
+      "competitors": [
+        "SV Elversberg",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-02-06T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884646/sv-elversberg-bayern-munich"
+    },
+    {
+      "id": "bayern-401884631",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at 1. FC Union Berlin",
+      "short_title": "FCB @ FCU",
+      "competitors": [
+        "Bayern Munich",
+        "1. FC Union Berlin"
+      ],
+      "start_utc": "2027-02-13T20:00:00Z",
+      "venue": {
+        "name": "Stadion An der Alten Försterei",
+        "city": "Berlin",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884631/bayern-munich-1-fc-union-berlin"
+    },
+    {
+      "id": "bayern-401884628",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "FC Augsburg at Bayern Munich",
+      "short_title": "FCA @ FCB",
+      "competitors": [
+        "FC Augsburg",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-02-20T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884628/fc-augsburg-bayern-munich"
+    },
+    {
+      "id": "bayern-401884618",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at RB Leipzig",
+      "short_title": "FCB @ RBL",
+      "competitors": [
+        "Bayern Munich",
+        "RB Leipzig"
+      ],
+      "start_utc": "2027-02-27T20:00:00Z",
+      "venue": {
+        "name": "Red Bull Arena",
+        "city": "Leipzig",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884618/bayern-munich-rb-leipzig"
+    },
+    {
+      "id": "bayern-401884610",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "SC Freiburg at Bayern Munich",
+      "short_title": "SCF @ FCB",
+      "competitors": [
+        "SC Freiburg",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-03-03T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884610/sc-freiburg-bayern-munich"
+    },
+    {
+      "id": "bayern-401884601",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at Borussia Dortmund",
+      "short_title": "FCB @ DOR",
+      "competitors": [
+        "Bayern Munich",
+        "Borussia Dortmund"
+      ],
+      "start_utc": "2027-03-06T20:00:00Z",
+      "venue": {
+        "name": "Signal Iduna Park",
+        "city": "Aue",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884601/bayern-munich-borussia-dortmund"
+    },
+    {
+      "id": "bayern-401884592",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Mainz at Bayern Munich",
+      "short_title": "M05 @ FCB",
+      "competitors": [
+        "Mainz",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-03-13T20:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884592/mainz-bayern-munich"
+    },
+    {
+      "id": "bayern-401884576",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at FC Cologne",
+      "short_title": "FCB @ KOE",
+      "competitors": [
+        "Bayern Munich",
+        "FC Cologne"
+      ],
+      "start_utc": "2027-03-20T18:00:00Z",
+      "venue": {
+        "name": "RheinEnergieStadion",
+        "city": "Cologne",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884576/bayern-munich-fc-cologne"
+    },
+    {
+      "id": "bayern-401884574",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Hamburg SV at Bayern Munich",
+      "short_title": "HSV @ FCB",
+      "competitors": [
+        "Hamburg SV",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-04-03T18:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884574/hamburg-sv-bayern-munich"
+    },
+    {
+      "id": "bayern-401884557",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at SC Paderborn 07",
+      "short_title": "FCB @ SCP",
+      "competitors": [
+        "Bayern Munich",
+        "SC Paderborn 07"
+      ],
+      "start_utc": "2027-04-10T18:00:00Z",
+      "venue": {
+        "name": "Home Deluxe Arena",
+        "city": "Paderborn",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884557/bayern-munich-sc-paderborn-07"
+    },
+    {
+      "id": "bayern-401884556",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "TSG Hoffenheim at Bayern Munich",
+      "short_title": "TSG @ FCB",
+      "competitors": [
+        "TSG Hoffenheim",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-04-17T18:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884556/tsg-hoffenheim-bayern-munich"
+    },
+    {
+      "id": "bayern-401884540",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at Werder Bremen",
+      "short_title": "FCB @ SVW",
+      "competitors": [
+        "Bayern Munich",
+        "Werder Bremen"
+      ],
+      "start_utc": "2027-04-24T18:00:00Z",
+      "venue": {
+        "name": "Weserstadion",
+        "city": "Bremen",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884540/bayern-munich-werder-bremen"
+    },
+    {
+      "id": "bayern-401884538",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Borussia Mönchengladbach at Bayern Munich",
+      "short_title": "BMG @ FCB",
+      "competitors": [
+        "Borussia Mönchengladbach",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-05-08T18:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884538/borussia-monchengladbach-bayern-munich"
+    },
+    {
+      "id": "bayern-401884526",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Bayern Munich at Bayer Leverkusen",
+      "short_title": "FCB @ B04",
+      "competitors": [
+        "Bayern Munich",
+        "Bayer Leverkusen"
+      ],
+      "start_utc": "2027-05-15T18:00:00Z",
+      "venue": {
+        "name": "BayArena",
+        "city": "Leverkusen",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884526/bayern-munich-bayer-leverkusen"
+    },
+    {
+      "id": "bayern-401884500",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "Bundesliga",
+      "session": null,
+      "title": "Eintracht Frankfurt at Bayern Munich",
+      "short_title": "SGE @ FCB",
+      "competitors": [
+        "Eintracht Frankfurt",
+        "Bayern Munich"
+      ],
+      "start_utc": "2027-05-22T13:30:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": "TBD",
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884500/eintracht-frankfurt-bayern-munich"
     }
   ]
 }

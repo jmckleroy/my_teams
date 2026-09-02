@@ -7,6 +7,23 @@
   var data = window.SPORTS_CALENDAR_DATA;
   var VIEWER_TZ = (data && data.viewer_tz) || "America/Chicago";
 
+  // Friendly names for the IANA zones we display. Anything not listed falls
+  // back to its city ("Europe/Berlin" -> "Berlin").
+  var TZ_LABELS = {
+    "America/Chicago": "Central Time",
+    "America/New_York": "Eastern Time",
+    "America/Indiana/Indianapolis": "Eastern Time",
+    "America/Toronto": "Eastern Time",
+    "America/Denver": "Mountain Time",
+    "America/Phoenix": "Mountain Time (Arizona)",
+    "America/Los_Angeles": "Pacific Time",
+  };
+
+  function tzLabel(tz) {
+    if (!tz) return tz;
+    return TZ_LABELS[tz] || tz.split("/").pop().replace(/_/g, " ");
+  }
+
   var TEAM_COLORS = {
     Ferrari: "#d40000",
     "FC Bayern Munich": "#dc052d",
@@ -283,9 +300,9 @@
       (e.session && e.title.indexOf(e.session) === -1
         ? row("Round", esc(e.session))
         : "") +
-      row("Your time", esc(fmtTime(e.start_utc, VIEWER_TZ, true)) + " (" + esc(VIEWER_TZ) + ")") +
+      row("Your time", esc(fmtTime(e.start_utc, VIEWER_TZ, true)) + " (" + esc(tzLabel(VIEWER_TZ)) + ")") +
       (localTime
-        ? row("Local time", esc(localTime) + " (" + esc(v.tz) + ")")
+        ? row("Local time", esc(localTime) + " (" + esc(tzLabel(v.tz)) + ")")
         : "") +
       row("Venue", esc(v.name)) +
       row("City", esc(place)) +

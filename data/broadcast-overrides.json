@@ -1,10 +1,13 @@
 {
   "_comment": "Hand-edited. TV/stream network per event. Not overwritten by fetch scripts. Lookup order: events[<event id>] -> defaults[<competition>] -> null (shown as 'TBD').",
   "defaults": {
-    "FIA Formula 1 World Championship": "ESPN / ABC (US)"
+    "FIA Formula 1 World Championship": "ESPN / ABC (US)",
+    "UEFA Champions League": "Paramount+ (US)"
   },
   "_note_nfl": "NFL games carry a real TV network from ESPN; only add NFL entries here to correct one.",
+  "_note_bayern": "Bundesliga/Supercup 2026-27 US rights are Versant's, split per-match between USA Network and Fandango (free stream) - the ESPN API carries the right value per game (blank until ESPN assigns it), so no per-competition default. UCL is Paramount+. Add a per-event entry to correct one.",
   "events": {
-    "f1-2026-r1-race": "ESPN"
+    "f1-2026-r1-race": "ESPN",
+    "bayern-401884500": "TBD"
   }
 }

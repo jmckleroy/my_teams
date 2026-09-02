@@ -21,7 +21,7 @@ const COMPETITION = "FIA Formula 1 World Championship";
 
 // jolpica gives circuit lat/long but no timezone. Hand-maintained map of
 // circuitId -> IANA timezone for the current F1 calendar. Missing -> null
-// (the UI then shows only the America/Chicago time).
+// (the UI then shows only the viewer's time).
 const CIRCUIT_TZ = {
   albert_park: "Australia/Melbourne",
   shanghai: "Asia/Shanghai",
