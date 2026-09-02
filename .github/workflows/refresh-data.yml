@@ -1,0 +1,59 @@
+name: Refresh schedule data
+
+# Re-fetches every source once a day and commits the result if anything
+# meaningful changed. GitHub Pages redeploys automatically on the push.
+on:
+  schedule:
+    - cron: "0 10 * * *" # 10:00 UTC -> ~04:00-05:00 America/Chicago
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch latest schedules
+        run: npm run fetch:all
+
+      - name: Commit data if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          changed=$(git status --porcelain data/ | awk '{print $2}')
+          if [ -z "$changed" ]; then
+            echo "No data changes."
+            exit 0
+          fi
+
+          # Every fetch rewrites a "generated" timestamp; only commit when a
+          # file changed beyond that.
+          real_change=0
+          for f in $changed; do
+            if git diff -U0 -- "$f" \
+                | grep -E '^[+-][^+-]' \
+                | grep -qvE '"(generated|timestamp)":'; then
+              real_change=1
+            fi
+          done
+
+          if [ "$real_change" -eq 0 ]; then
+            echo "Only timestamp churn - nothing to commit."
+            exit 0
+          fi
+
+          git add data/
+          git commit -m "Auto-refresh schedule data"
+          git push

@@ -1,9 +1,14 @@
 # Sports Calendar
 
-A personal calendar for the teams I follow. **Phase 1: a local static site** — plain
-HTML/CSS/JS, event data in a JSON file, opened directly in the browser.
+A personal calendar for the teams I follow — plain HTML/CSS/JS, event data in a
+JSON file, no build step.
 
-## Teams tracked (Phase 1)
+**Live:** https://jmckleroy.github.io/my_teams/ — hosted on GitHub Pages straight
+from `main`. A scheduled GitHub Action re-fetches every source once a day and
+commits the data if it changed (see `.github/workflows/refresh-data.yml`); the
+push redeploys Pages automatically.
+
+## Teams tracked
 
 | Team              | Scope                                             | Data source            | Status         |
 | ----------------- | ------------------------------------------------- | ---------------------- | -------------- |
@@ -26,7 +31,7 @@ npx serve .
 ```
 
 `index.html` reads `data/events.js` via a `<script>` tag so it works from `file://`
-with no server. `data/events.json` is the same data for later phases.
+with no server. `data/events.json` is the same data in plain JSON.
 
 ## Layout
 
