@@ -5,10 +5,22 @@
   "use strict";
 
   var data = window.SPORTS_CALENDAR_DATA;
-  var VIEWER_TZ = (data && data.viewer_tz) || "America/Chicago";
 
-  // Friendly names for the IANA zones we display. Anything not listed falls
-  // back to its city ("Europe/Berlin" -> "Berlin").
+  // Use whatever time zone the viewer's browser reports, so the calendar shows
+  // local times for everyone. Falls back to the value baked into the data, then
+  // Central, only if detection somehow fails.
+  var VIEWER_TZ = detectTz() || (data && data.viewer_tz) || "America/Chicago";
+
+  function detectTz() {
+    try {
+      return Intl.DateTimeFormat().resolvedOptions().timeZone || null;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  // Friendly names for common US zones. Anything else uses the browser's own
+  // long name for the zone ("Central European Standard Time"), then its city.
   var TZ_LABELS = {
     "America/Chicago": "Central Time",
     "America/New_York": "Eastern Time",
@@ -21,7 +33,19 @@
 
   function tzLabel(tz) {
     if (!tz) return tz;
-    return TZ_LABELS[tz] || tz.split("/").pop().replace(/_/g, " ");
+    if (TZ_LABELS[tz]) return TZ_LABELS[tz];
+    try {
+      var part = new Intl.DateTimeFormat("en-US", {
+        timeZone: tz,
+        timeZoneName: "long",
+      })
+        .formatToParts(new Date())
+        .find(function (p) {
+          return p.type === "timeZoneName";
+        });
+      if (part && part.value) return part.value;
+    } catch (e) {}
+    return tz.split("/").pop().replace(/_/g, " ");
   }
 
   var TEAM_COLORS = {
@@ -35,6 +59,7 @@
   var filtersEl = document.getElementById("filters");
   var detailEl = document.getElementById("detail");
   var generatedEl = document.getElementById("generated");
+  var subtitleEl = document.getElementById("subtitle");
 
   if (!data || !Array.isArray(data.events) || !data.events.length) {
     gridEl.textContent =
@@ -356,6 +381,11 @@
     viewMonth = p.month;
     render();
   });
+
+  if (subtitleEl) {
+    subtitleEl.innerHTML =
+      "Times shown in <strong>" + esc(tzLabel(VIEWER_TZ)) + "</strong>";
+  }
 
   if (generatedEl && data.generated) {
     generatedEl.textContent =
