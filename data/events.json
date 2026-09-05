@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-02T00:43:16.227Z",
+  "generated": "2026-09-05T13:14:48.687Z",
   "viewer_tz": "America/Chicago",
-  "count": 98,
+  "count": 100,
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -794,6 +794,25 @@
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401875174/bayern-munich-vfl-osnabruck"
     },
     {
+      "id": "f1-2026-r13-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Italian Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-09-05T14:00:00Z",
+      "venue": {
+        "name": "Autodromo Nazionale di Monza",
+        "city": "Monza",
+        "country": "Italy",
+        "tz": "Europe/Rome"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix"
+    },
+    {
       "id": "bayern-401884801",
       "sport": "Soccer",
       "team": "FC Bayern Munich",
@@ -816,6 +835,25 @@
       "broadcast": "USA Network",
       "source": "espn-soccer",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884801/bayern-munich-schalke-04"
+    },
+    {
+      "id": "f1-2026-r13-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Italian Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-09-06T13:00:00Z",
+      "venue": {
+        "name": "Autodromo Nazionale di Monza",
+        "city": "Monza",
+        "country": "Italy",
+        "tz": "Europe/Rome"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix"
     },
     {
       "id": "bayern-401915443",
