@@ -1,6 +1,6 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-09-05T13:14:48.684Z",
+  "generated": "2026-09-06T13:23:57.978Z",
   "events": [
     {
       "id": "bayern-401873679",
@@ -289,6 +289,30 @@
       "broadcast": null,
       "source": "espn-soccer",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884759/bayern-munich-sc-freiburg"
+    },
+    {
+      "id": "bayern-401917035",
+      "sport": "Soccer",
+      "team": "FC Bayern Munich",
+      "competition": "DFB-Pokal",
+      "session": "Second Round",
+      "title": "1. FC Magdeburg at Bayern Munich",
+      "short_title": "FCM @ FCB",
+      "competitors": [
+        "1. FC Magdeburg",
+        "Bayern Munich"
+      ],
+      "start_utc": "2026-10-27T18:00:00Z",
+      "venue": {
+        "name": "Allianz Arena",
+        "city": "München",
+        "region": null,
+        "country": "Germany",
+        "tz": "Europe/Berlin"
+      },
+      "broadcast": null,
+      "source": "espn-soccer",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401917035/1-fc-magdeburg-bayern-munich"
     },
     {
       "id": "bayern-401884754",
