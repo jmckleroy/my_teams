@@ -1,6 +1,6 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-09-06T13:23:57.978Z",
+  "generated": "2026-09-09T14:09:26.953Z",
   "events": [
     {
       "id": "bayern-401873679",
@@ -142,7 +142,7 @@
         "country": "Germany",
         "tz": "Europe/Berlin"
       },
-      "broadcast": null,
+      "broadcast": "USA Network",
       "source": "espn-soccer",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884791/bayern-munich-sv-elversberg"
     },
