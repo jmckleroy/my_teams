@@ -1,6 +1,6 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-09-09T14:09:26.953Z",
+  "generated": "2026-09-11T14:03:17.314Z",
   "events": [
     {
       "id": "bayern-401873679",
@@ -182,7 +182,7 @@
         "Bayern Munich",
         "FC Augsburg"
       ],
-      "start_utc": "2026-10-10T18:00:00Z",
+      "start_utc": "2026-10-10T13:30:00Z",
       "venue": {
         "name": "WWK Arena",
         "city": "Augsburg",
@@ -230,7 +230,7 @@
         "RB Leipzig",
         "Bayern Munich"
       ],
-      "start_utc": "2026-10-17T18:00:00Z",
+      "start_utc": "2026-10-17T16:30:00Z",
       "venue": {
         "name": "Allianz Arena",
         "city": "München",
@@ -278,7 +278,7 @@
         "Bayern Munich",
         "SC Freiburg"
       ],
-      "start_utc": "2026-10-24T18:00:00Z",
+      "start_utc": "2026-10-25T16:30:00Z",
       "venue": {
         "name": "Europa-Park Stadion",
         "city": "Freiburg im Breisgau",
@@ -302,7 +302,7 @@
         "1. FC Magdeburg",
         "Bayern Munich"
       ],
-      "start_utc": "2026-10-27T18:00:00Z",
+      "start_utc": "2026-10-28T19:45:00Z",
       "venue": {
         "name": "Allianz Arena",
         "city": "München",
@@ -326,7 +326,7 @@
         "Borussia Dortmund",
         "Bayern Munich"
       ],
-      "start_utc": "2026-10-31T18:00:00Z",
+      "start_utc": "2026-10-31T17:30:00Z",
       "venue": {
         "name": "Allianz Arena",
         "city": "München",
@@ -374,7 +374,7 @@
         "Bayern Munich",
         "Mainz"
       ],
-      "start_utc": "2026-11-07T20:00:00Z",
+      "start_utc": "2026-11-07T14:30:00Z",
       "venue": {
         "name": "MEWA ARENA",
         "city": "Mainz",
@@ -398,7 +398,7 @@
         "FC Cologne",
         "Bayern Munich"
       ],
-      "start_utc": "2026-11-21T20:00:00Z",
+      "start_utc": "2026-11-20T19:30:00Z",
       "venue": {
         "name": "Allianz Arena",
         "city": "München",
@@ -446,7 +446,7 @@
         "Bayern Munich",
         "Hamburg SV"
       ],
-      "start_utc": "2026-11-28T20:00:00Z",
+      "start_utc": "2026-11-28T14:30:00Z",
       "venue": {
         "name": "Volksparkstadion",
         "city": "Hamburg Norderstedt",

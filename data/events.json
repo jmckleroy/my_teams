@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-09T14:09:26.955Z",
+  "generated": "2026-09-11T14:03:17.316Z",
   "viewer_tz": "America/Chicago",
-  "count": 101,
+  "count": 103,
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -880,6 +880,44 @@
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401915443/bodoglimt-bayern-munich"
     },
     {
+      "id": "f1-2026-r14-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Spanish Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-09-12T14:00:00Z",
+      "venue": {
+        "name": "Madring",
+        "city": "Madrid",
+        "country": "Spain",
+        "tz": "Europe/Madrid"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Spanish_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r14-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Spanish Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-09-13T13:00:00Z",
+      "venue": {
+        "name": "Madring",
+        "city": "Madrid",
+        "country": "Spain",
+        "tz": "Europe/Madrid"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Spanish_Grand_Prix"
+    },
+    {
       "id": "bayern-401884791",
       "sport": "Soccer",
       "team": "FC Bayern Munich",
@@ -1035,7 +1073,7 @@
         "Bayern Munich",
         "FC Augsburg"
       ],
-      "start_utc": "2026-10-10T18:00:00Z",
+      "start_utc": "2026-10-10T13:30:00Z",
       "venue": {
         "name": "WWK Arena",
         "city": "Augsburg",
@@ -1107,7 +1145,7 @@
         "RB Leipzig",
         "Bayern Munich"
       ],
-      "start_utc": "2026-10-17T18:00:00Z",
+      "start_utc": "2026-10-17T16:30:00Z",
       "venue": {
         "name": "Allianz Arena",
         "city": "München",
@@ -1179,7 +1217,7 @@
         "Bayern Munich",
         "SC Freiburg"
       ],
-      "start_utc": "2026-10-24T18:00:00Z",
+      "start_utc": "2026-10-25T16:30:00Z",
       "venue": {
         "name": "Europa-Park Stadion",
         "city": "Freiburg im Breisgau",
@@ -1227,7 +1265,7 @@
         "1. FC Magdeburg",
         "Bayern Munich"
       ],
-      "start_utc": "2026-10-27T18:00:00Z",
+      "start_utc": "2026-10-28T19:45:00Z",
       "venue": {
         "name": "Allianz Arena",
         "city": "München",
@@ -1251,7 +1289,7 @@
         "Borussia Dortmund",
         "Bayern Munich"
       ],
-      "start_utc": "2026-10-31T18:00:00Z",
+      "start_utc": "2026-10-31T17:30:00Z",
       "venue": {
         "name": "Allianz Arena",
         "city": "München",
@@ -1323,7 +1361,7 @@
         "Bayern Munich",
         "Mainz"
       ],
-      "start_utc": "2026-11-07T20:00:00Z",
+      "start_utc": "2026-11-07T14:30:00Z",
       "venue": {
         "name": "MEWA ARENA",
         "city": "Mainz",
@@ -1371,7 +1409,7 @@
         "FC Cologne",
         "Bayern Munich"
       ],
-      "start_utc": "2026-11-21T20:00:00Z",
+      "start_utc": "2026-11-20T19:30:00Z",
       "venue": {
         "name": "Allianz Arena",
         "city": "München",
@@ -1443,7 +1481,7 @@
         "Bayern Munich",
         "Hamburg SV"
       ],
-      "start_utc": "2026-11-28T20:00:00Z",
+      "start_utc": "2026-11-28T14:30:00Z",
       "venue": {
         "name": "Volksparkstadion",
         "city": "Hamburg Norderstedt",

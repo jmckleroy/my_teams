@@ -1,7 +1,7 @@
 {
   "source": "jolpica-f1",
   "season": "2026",
-  "generated": "2026-09-09T14:09:25.175Z",
+  "generated": "2026-09-11T14:03:15.181Z",
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -686,6 +686,44 @@
       "broadcast": "ESPN / ABC (US)",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r14-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Spanish Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-09-12T14:00:00Z",
+      "venue": {
+        "name": "Madring",
+        "city": "Madrid",
+        "country": "Spain",
+        "tz": "Europe/Madrid"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Spanish_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r14-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Spanish Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-09-13T13:00:00Z",
+      "venue": {
+        "name": "Madring",
+        "city": "Madrid",
+        "country": "Spain",
+        "tz": "Europe/Madrid"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Spanish_Grand_Prix"
     }
   ]
 }
