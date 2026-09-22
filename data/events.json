@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16T14:35:29.304Z",
+  "generated": "2026-09-22T14:20:06.605Z",
   "viewer_tz": "America/Chicago",
   "count": 103,
   "events": [
@@ -1155,7 +1155,7 @@
       },
       "broadcast": null,
       "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884772/rb-leipzig-bayern-munich"
+      "source_url": "https://www.espn.com/soccer/match?gameId=401884772/rb-leipzig-bayern-munich"
     },
     {
       "id": "nfl-401873003",
@@ -1227,7 +1227,7 @@
       },
       "broadcast": null,
       "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884759/bayern-munich-sc-freiburg"
+      "source_url": "https://www.espn.com/soccer/match?gameId=401884759/bayern-munich-sc-freiburg"
     },
     {
       "id": "nfl-401873013",
@@ -1611,7 +1611,7 @@
       },
       "broadcast": null,
       "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884707/bayern-munich-tsg-hoffenheim"
+      "source_url": "https://www.espn.com/soccer/match?gameId=401884707/bayern-munich-tsg-hoffenheim"
     },
     {
       "id": "nfl-401873117",
@@ -1803,7 +1803,7 @@
       },
       "broadcast": null,
       "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884682/bayer-leverkusen-bayern-munich"
+      "source_url": "https://www.espn.com/soccer/match?gameId=401884682/bayer-leverkusen-bayern-munich"
     },
     {
       "id": "bayern-401884669",
@@ -1875,7 +1875,7 @@
       },
       "broadcast": null,
       "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884664/bayern-munich-vfb-stuttgart"
+      "source_url": "https://www.espn.com/soccer/match?gameId=401884664/bayern-munich-vfb-stuttgart"
     },
     {
       "id": "bayern-401915348",
@@ -2115,7 +2115,7 @@
       },
       "broadcast": null,
       "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884576/bayern-munich-fc-cologne"
+      "source_url": "https://www.espn.com/soccer/match?gameId=401884576/bayern-munich-fc-cologne"
     },
     {
       "id": "bayern-401884574",
@@ -2235,7 +2235,7 @@
       },
       "broadcast": null,
       "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884538/borussia-monchengladbach-bayern-munich"
+      "source_url": "https://www.espn.com/soccer/match?gameId=401884538/borussia-monchengladbach-bayern-munich"
     },
     {
       "id": "bayern-401884526",
