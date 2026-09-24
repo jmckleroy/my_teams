@@ -1,7 +1,7 @@
 {
   "source": "jolpica-f1",
   "season": "2026",
-  "generated": "2026-09-23T14:40:47.714Z",
+  "generated": "2026-09-24T14:37:43.674Z",
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -724,6 +724,44 @@
       "broadcast": "ESPN / ABC (US)",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_Spanish_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r15-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Azerbaijan Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-09-25T12:00:00Z",
+      "venue": {
+        "name": "Baku City Circuit",
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "tz": "Asia/Baku"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Azerbaijan_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r15-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Azerbaijan Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-09-26T11:00:00Z",
+      "venue": {
+        "name": "Baku City Circuit",
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "tz": "Asia/Baku"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Azerbaijan_Grand_Prix"
     }
   ]
 }
