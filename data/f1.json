@@ -1,7 +1,7 @@
 {
   "source": "jolpica-f1",
   "season": "2026",
-  "generated": "2026-09-24T14:37:43.674Z",
+  "generated": "2026-10-03T14:33:33.777Z",
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -762,6 +762,44 @@
       "broadcast": "ESPN / ABC (US)",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_Azerbaijan_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r16-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Bahrain Grand Prix in Malaysia — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-10-03T08:00:00Z",
+      "venue": {
+        "name": "Sepang International Circuit",
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "tz": null
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Bahrain_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r16-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Bahrain Grand Prix in Malaysia — Race",
+      "competitors": null,
+      "start_utc": "2026-10-04T07:00:00Z",
+      "venue": {
+        "name": "Sepang International Circuit",
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "tz": null
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Bahrain_Grand_Prix"
     }
   ]
 }
