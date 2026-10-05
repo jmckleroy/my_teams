@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T14:33:35.714Z",
+  "generated": "2026-10-05T19:03:29.863Z",
   "viewer_tz": "America/Chicago",
   "count": 107,
   "events": [
@@ -717,7 +717,7 @@
         "country": "USA",
         "tz": "America/Chicago"
       },
-      "broadcast": "FOX",
+      "broadcast": "Fox",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873297"
     },
@@ -1009,7 +1009,7 @@
         "country": "USA",
         "tz": "America/Chicago"
       },
-      "broadcast": "FOX",
+      "broadcast": "Fox",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401872939"
     },
@@ -1253,7 +1253,7 @@
         "country": "USA",
         "tz": "America/Indiana/Indianapolis"
       },
-      "broadcast": "FOX",
+      "broadcast": "Fox",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873003"
     },
@@ -1469,7 +1469,7 @@
         "country": "USA",
         "tz": "America/Chicago"
       },
-      "broadcast": "FOX",
+      "broadcast": "Fox",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873057"
     },
@@ -1517,7 +1517,7 @@
         "country": "USA",
         "tz": "America/Chicago"
       },
-      "broadcast": "FOX",
+      "broadcast": "Fox",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873073"
     },
@@ -1709,7 +1709,7 @@
         "country": "USA",
         "tz": "America/New_York"
       },
-      "broadcast": "FOX",
+      "broadcast": "Fox",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873117"
     },
@@ -1781,7 +1781,7 @@
         "country": "USA",
         "tz": "America/Los_Angeles"
       },
-      "broadcast": "FOX",
+      "broadcast": "Fox",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873152"
     },
