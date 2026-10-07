@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-05T19:03:29.863Z",
+  "generated": "2026-10-07T17:15:08.330Z",
   "viewer_tz": "America/Chicago",
-  "count": 107,
+  "count": 106,
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -653,30 +653,6 @@
       "broadcast": "ESPN / ABC (US)",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix"
-    },
-    {
-      "id": "bayern-401873679",
-      "sport": "Soccer",
-      "team": "FC Bayern Munich",
-      "competition": "DFL-Supercup",
-      "session": null,
-      "title": "Bayern Munich at Borussia Dortmund",
-      "short_title": "FCB @ DOR",
-      "competitors": [
-        "Bayern Munich",
-        "Borussia Dortmund"
-      ],
-      "start_utc": "2026-08-22T18:30:00Z",
-      "venue": {
-        "name": "Signal Iduna Park",
-        "city": "Aue",
-        "region": null,
-        "country": "Germany",
-        "tz": "Europe/Berlin"
-      },
-      "broadcast": "USA Network",
-      "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401873679/bayern-munich-borussia-dortmund"
     },
     {
       "id": "f1-2026-r12-race",
