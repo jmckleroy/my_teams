@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-07T17:15:08.330Z",
+  "generated": "2026-10-09T16:48:28.381Z",
   "viewer_tz": "America/Chicago",
-  "count": 106,
+  "count": 110,
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -1114,6 +1114,63 @@
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401872973"
     },
     {
+      "id": "f1-2026-r17-sprint-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint Qualifying",
+      "title": "Singapore Grand Prix — Sprint Qualifying",
+      "competitors": null,
+      "start_utc": "2026-10-09T12:30:00Z",
+      "venue": {
+        "name": "Marina Bay Street Circuit",
+        "city": "Marina Bay",
+        "country": "Singapore",
+        "tz": "Asia/Singapore"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r17-sprint",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Sprint",
+      "title": "Singapore Grand Prix — Sprint",
+      "competitors": null,
+      "start_utc": "2026-10-10T09:00:00Z",
+      "venue": {
+        "name": "Marina Bay Street Circuit",
+        "city": "Marina Bay",
+        "country": "Singapore",
+        "tz": "Asia/Singapore"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r17-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Singapore Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-10-10T13:00:00Z",
+      "venue": {
+        "name": "Marina Bay Street Circuit",
+        "city": "Marina Bay",
+        "country": "Singapore",
+        "tz": "Asia/Singapore"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix"
+    },
+    {
       "id": "bayern-401884777",
       "sport": "Soccer",
       "team": "FC Bayern Munich",
@@ -1133,9 +1190,28 @@
         "country": "Germany",
         "tz": "Europe/Berlin"
       },
-      "broadcast": null,
+      "broadcast": "Fandango",
       "source": "espn-soccer",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884777/bayern-munich-fc-augsburg"
+    },
+    {
+      "id": "f1-2026-r17-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Singapore Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-10-11T12:00:00Z",
+      "venue": {
+        "name": "Marina Bay Street Circuit",
+        "city": "Marina Bay",
+        "country": "Singapore",
+        "tz": "Asia/Singapore"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix"
     },
     {
       "id": "nfl-401872984",
