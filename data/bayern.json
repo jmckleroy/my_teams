@@ -1,31 +1,7 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-10-09T16:48:28.377Z",
+  "generated": "2026-10-12T19:37:02.299Z",
   "events": [
-    {
-      "id": "bayern-401884817",
-      "sport": "Soccer",
-      "team": "FC Bayern Munich",
-      "competition": "Bundesliga",
-      "session": null,
-      "title": "VfB Stuttgart at Bayern Munich",
-      "short_title": "VFB @ FCB",
-      "competitors": [
-        "VfB Stuttgart",
-        "Bayern Munich"
-      ],
-      "start_utc": "2026-08-28T18:30:00Z",
-      "venue": {
-        "name": "Allianz Arena",
-        "city": "München",
-        "region": null,
-        "country": "Germany",
-        "tz": "Europe/Berlin"
-      },
-      "broadcast": "Fandango",
-      "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884817/vfb-stuttgart-bayern-munich"
-    },
     {
       "id": "bayern-401875174",
       "sport": "Soccer",
