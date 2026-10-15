@@ -1,6 +1,6 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-10-14T14:52:48.256Z",
+  "generated": "2026-10-15T14:39:45.493Z",
   "events": [
     {
       "id": "bayern-401875174",
@@ -152,11 +152,11 @@
       "team": "FC Bayern Munich",
       "competition": "UEFA Champions League",
       "session": "League Phase",
-      "title": "Bayern Munich at Viking FK",
-      "short_title": "FCB @ VIK",
+      "title": "Bayern Munich at VIKING FK",
+      "short_title": "FCB @ VIKING FK",
       "competitors": [
         "Bayern Munich",
-        "Viking FK"
+        "VIKING FK"
       ],
       "start_utc": "2026-10-13T19:00:00Z",
       "venue": {
