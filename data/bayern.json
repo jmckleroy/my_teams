@@ -1,6 +1,6 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-10-15T14:39:45.493Z",
+  "generated": "2026-10-16T14:31:39.247Z",
   "events": [
     {
       "id": "bayern-401875174",
@@ -190,7 +190,7 @@
         "country": "Germany",
         "tz": "Europe/Berlin"
       },
-      "broadcast": "USA Network / FuboTV / Peacock / Tele",
+      "broadcast": "USA Network",
       "source": "espn-soccer",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884772/rb-leipzig-bayern-munich"
     },
@@ -238,7 +238,7 @@
         "country": "Germany",
         "tz": "Europe/Berlin"
       },
-      "broadcast": "Peacock / Fandango / Tele / FuboTV",
+      "broadcast": "Fandango",
       "source": "espn-soccer",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884759/bayern-munich-sc-freiburg"
     },
