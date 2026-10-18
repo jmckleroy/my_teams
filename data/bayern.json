@@ -1,31 +1,7 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-10-16T14:31:39.247Z",
+  "generated": "2026-10-18T13:45:55.730Z",
   "events": [
-    {
-      "id": "bayern-401875174",
-      "sport": "Soccer",
-      "team": "FC Bayern Munich",
-      "competition": "DFB-Pokal",
-      "session": "First Round",
-      "title": "Bayern Munich at VfL Osnabruck",
-      "short_title": "FCB @ OSN",
-      "competitors": [
-        "Bayern Munich",
-        "VfL Osnabruck"
-      ],
-      "start_utc": "2026-09-02T18:45:00Z",
-      "venue": {
-        "name": "Stadion an der Bremer Brücke'",
-        "city": null,
-        "region": null,
-        "country": "Germany",
-        "tz": "Europe/Berlin"
-      },
-      "broadcast": null,
-      "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401875174/bayern-munich-vfl-osnabruck"
-    },
     {
       "id": "bayern-401884801",
       "sport": "Soccer",
