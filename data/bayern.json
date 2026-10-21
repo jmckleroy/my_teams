@@ -1,31 +1,7 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-10-19T16:47:30.405Z",
+  "generated": "2026-10-21T14:50:47.511Z",
   "events": [
-    {
-      "id": "bayern-401884801",
-      "sport": "Soccer",
-      "team": "FC Bayern Munich",
-      "competition": "Bundesliga",
-      "session": null,
-      "title": "Bayern Munich at Schalke 04",
-      "short_title": "FCB @ S04",
-      "competitors": [
-        "Bayern Munich",
-        "Schalke 04"
-      ],
-      "start_utc": "2026-09-05T16:30:00Z",
-      "venue": {
-        "name": "Veltins Arena",
-        "city": "Gelsenkirchen",
-        "region": null,
-        "country": "Germany",
-        "tz": "Europe/Berlin"
-      },
-      "broadcast": "USA Network",
-      "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884801/bayern-munich-schalke-04"
-    },
     {
       "id": "bayern-401915443",
       "sport": "Soccer",
