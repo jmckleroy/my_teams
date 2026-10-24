@@ -1,7 +1,7 @@
 {
   "source": "jolpica-f1",
   "season": "2026",
-  "generated": "2026-10-21T14:50:46.755Z",
+  "generated": "2026-10-24T13:49:43.736Z",
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -876,6 +876,44 @@
       "broadcast": "ESPN / ABC (US)",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r18-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "United States Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-10-24T21:00:00Z",
+      "venue": {
+        "name": "Circuit of the Americas",
+        "city": "Austin",
+        "country": "USA",
+        "tz": "America/Chicago"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r18-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "United States Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-10-25T20:00:00Z",
+      "venue": {
+        "name": "Circuit of the Americas",
+        "city": "Austin",
+        "country": "USA",
+        "tz": "America/Chicago"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix"
     }
   ]
 }
