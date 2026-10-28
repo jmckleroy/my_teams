@@ -1,31 +1,7 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-10-26T16:29:19.985Z",
+  "generated": "2026-10-28T16:26:02.166Z",
   "events": [
-    {
-      "id": "bayern-401884791",
-      "sport": "Soccer",
-      "team": "FC Bayern Munich",
-      "competition": "Bundesliga",
-      "session": null,
-      "title": "Bayern Munich at SV Elversberg",
-      "short_title": "FCB @ ELV",
-      "competitors": [
-        "Bayern Munich",
-        "SV Elversberg"
-      ],
-      "start_utc": "2026-09-13T15:30:00Z",
-      "venue": {
-        "name": "URSAPHARM-Arena an der Kaiserlinde",
-        "city": "Spiesen-Elversberg",
-        "region": null,
-        "country": "Germany",
-        "tz": "Europe/Berlin"
-      },
-      "broadcast": "USA Network",
-      "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884791/bayern-munich-sv-elversberg"
-    },
     {
       "id": "bayern-401884790",
       "sport": "Soccer",
@@ -214,7 +190,7 @@
         "country": "Germany",
         "tz": "Europe/Berlin"
       },
-      "broadcast": null,
+      "broadcast": "USA Network / Fandango",
       "source": "espn-soccer",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884754/borussia-dortmund-bayern-munich"
     },
