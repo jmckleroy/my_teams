@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-30T16:31:47.666Z",
+  "generated": "2026-10-31T15:35:54.557Z",
   "viewer_tz": "America/Chicago",
-  "count": 107,
+  "count": 109,
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -1348,6 +1348,25 @@
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884754/borussia-dortmund-bayern-munich"
     },
     {
+      "id": "f1-2026-r19-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Mexico City Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-10-31T21:00:00Z",
+      "venue": {
+        "name": "Autódromo Hermanos Rodríguez",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "tz": "America/Mexico_City"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix"
+    },
+    {
       "id": "nfl-401873031",
       "sport": "NFL",
       "team": "Tennessee Titans",
@@ -1370,6 +1389,25 @@
       "broadcast": "CBS",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873031"
+    },
+    {
+      "id": "f1-2026-r19-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Mexico City Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-11-01T20:00:00Z",
+      "venue": {
+        "name": "Autódromo Hermanos Rodríguez",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "tz": "America/Mexico_City"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix"
     },
     {
       "id": "bayern-401915386",

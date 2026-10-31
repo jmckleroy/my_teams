@@ -1,7 +1,7 @@
 {
   "source": "jolpica-f1",
   "season": "2026",
-  "generated": "2026-10-30T16:31:46.402Z",
+  "generated": "2026-10-31T15:35:52.488Z",
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -914,6 +914,44 @@
       "broadcast": "ESPN / ABC (US)",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r19-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Mexico City Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-10-31T21:00:00Z",
+      "venue": {
+        "name": "Autódromo Hermanos Rodríguez",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "tz": "America/Mexico_City"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r19-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Mexico City Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-11-01T20:00:00Z",
+      "venue": {
+        "name": "Autódromo Hermanos Rodríguez",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "tz": "America/Mexico_City"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix"
     }
   ]
 }
