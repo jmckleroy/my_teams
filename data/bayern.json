@@ -1,6 +1,6 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-11-06T17:10:37.294Z",
+  "generated": "2026-11-07T16:05:59.597Z",
   "events": [
     {
       "id": "bayern-401884777",
@@ -216,7 +216,7 @@
       },
       "broadcast": "Fandango",
       "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884740/bayern-munich-mainz"
+      "source_url": null
     },
     {
       "id": "bayern-401884736",

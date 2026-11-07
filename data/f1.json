@@ -1,7 +1,7 @@
 {
   "source": "jolpica-f1",
   "season": "2026",
-  "generated": "2026-11-06T17:10:36.231Z",
+  "generated": "2026-11-07T16:05:58.598Z",
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -952,6 +952,44 @@
       "broadcast": "ESPN / ABC (US)",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r20-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Brazilian Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-11-07T18:00:00Z",
+      "venue": {
+        "name": "Autódromo José Carlos Pace",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "tz": "America/Sao_Paulo"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Brazilian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r20-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Brazilian Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-11-08T17:00:00Z",
+      "venue": {
+        "name": "Autódromo José Carlos Pace",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "tz": "America/Sao_Paulo"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Brazilian_Grand_Prix"
     }
   ]
 }
