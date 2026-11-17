@@ -1,7 +1,7 @@
 {
   "source": "espn-nfl",
   "season": "2026",
-  "generated": "2026-11-08T16:29:56.778Z",
+  "generated": "2026-11-17T18:56:22.368Z",
   "events": [
     {
       "id": "nfl-401874392",
@@ -327,7 +327,7 @@
         "Tennessee Titans",
         "Jacksonville Jaguars"
       ],
-      "start_utc": "2026-11-29T21:05:00Z",
+      "start_utc": "2026-11-29T18:00:00Z",
       "venue": {
         "name": "EverBank Stadium",
         "city": "Jacksonville",
