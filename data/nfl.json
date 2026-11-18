@@ -1,7 +1,7 @@
 {
   "source": "espn-nfl",
   "season": "2026",
-  "generated": "2026-11-17T18:56:22.368Z",
+  "generated": "2026-11-18T18:38:37.502Z",
   "events": [
     {
       "id": "nfl-401874392",
@@ -335,7 +335,7 @@
         "country": "USA",
         "tz": "America/New_York"
       },
-      "broadcast": "CBS",
+      "broadcast": "Fox",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873090"
     },

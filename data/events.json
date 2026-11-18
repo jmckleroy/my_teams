@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T18:56:23.051Z",
+  "generated": "2026-11-18T18:38:38.125Z",
   "viewer_tz": "America/Chicago",
   "count": 111,
   "events": [
@@ -1515,7 +1515,7 @@
         "country": "Germany",
         "tz": "Europe/Berlin"
       },
-      "broadcast": null,
+      "broadcast": "USA Network / Fandango",
       "source": "espn-soccer",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884736/fc-cologne-bayern-munich"
     },
@@ -1611,7 +1611,7 @@
         "country": "USA",
         "tz": "America/New_York"
       },
-      "broadcast": "CBS",
+      "broadcast": "Fox",
       "source": "espn-nfl",
       "source_url": "https://www.espn.com/nfl/game/_/gameId/401873090"
     },
