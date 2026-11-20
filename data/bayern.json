@@ -1,6 +1,6 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-11-18T18:38:38.122Z",
+  "generated": "2026-11-20T18:18:24.878Z",
   "events": [
     {
       "id": "bayern-401884777",
@@ -238,7 +238,7 @@
         "country": "Germany",
         "tz": "Europe/Berlin"
       },
-      "broadcast": "USA Network / Fandango",
+      "broadcast": "USA Network",
       "source": "espn-soccer",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884736/fc-cologne-bayern-munich"
     },

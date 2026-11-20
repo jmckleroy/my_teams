@@ -1,7 +1,7 @@
 {
   "source": "jolpica-f1",
   "season": "2026",
-  "generated": "2026-11-18T18:38:37.068Z",
+  "generated": "2026-11-20T18:18:23.201Z",
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -990,6 +990,44 @@
       "broadcast": "ESPN / ABC (US)",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_Brazilian_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r21-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Las Vegas Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-11-21T04:00:00Z",
+      "venue": {
+        "name": "Las Vegas Strip Street Circuit",
+        "city": "Las Vegas",
+        "country": "USA",
+        "tz": "America/Los_Angeles"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r21-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Las Vegas Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-11-22T04:00:00Z",
+      "venue": {
+        "name": "Las Vegas Strip Street Circuit",
+        "city": "Las Vegas",
+        "country": "USA",
+        "tz": "America/Los_Angeles"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix"
     }
   ]
 }
