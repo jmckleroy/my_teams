@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-20T18:18:24.881Z",
+  "generated": "2026-11-24T20:29:25.058Z",
   "viewer_tz": "America/Chicago",
-  "count": 113,
+  "count": 112,
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -1025,30 +1025,6 @@
       "broadcast": "ESPN / ABC (US)",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix"
-    },
-    {
-      "id": "bayern-401884777",
-      "sport": "Soccer",
-      "team": "FC Bayern Munich",
-      "competition": "Bundesliga",
-      "session": null,
-      "title": "Bayern Munich at FC Augsburg",
-      "short_title": "FCB @ FCA",
-      "competitors": [
-        "Bayern Munich",
-        "FC Augsburg"
-      ],
-      "start_utc": "2026-10-10T13:30:00Z",
-      "venue": {
-        "name": "WWK Arena",
-        "city": "Augsburg",
-        "region": null,
-        "country": "Germany",
-        "tz": "Europe/Berlin"
-      },
-      "broadcast": "Fandango",
-      "source": "espn-soccer",
-      "source_url": "https://www.espn.com/soccer/match/_/gameId/401884777/bayern-munich-fc-augsburg"
     },
     {
       "id": "f1-2026-r17-race",
