@@ -1,6 +1,6 @@
 {
   "source": "espn-soccer",
-  "generated": "2026-11-24T20:29:25.056Z",
+  "generated": "2026-11-25T19:44:56.544Z",
   "events": [
     {
       "id": "bayern-401915411",
@@ -262,7 +262,7 @@
         "country": "Germany",
         "tz": "Europe/Berlin"
       },
-      "broadcast": null,
+      "broadcast": "Fandango",
       "source": "espn-soccer",
       "source_url": "https://www.espn.com/soccer/match/_/gameId/401884722/bayern-munich-hamburg-sv"
     },
