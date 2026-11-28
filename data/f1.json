@@ -1,7 +1,7 @@
 {
   "source": "jolpica-f1",
   "season": "2026",
-  "generated": "2026-11-27T19:20:19.981Z",
+  "generated": "2026-11-28T17:56:19.117Z",
   "events": [
     {
       "id": "f1-2026-r1-qualifying",
@@ -1028,6 +1028,44 @@
       "broadcast": "ESPN / ABC (US)",
       "source": "jolpica-f1",
       "source_url": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r22-qualifying",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Qualifying",
+      "title": "Qatar Grand Prix — Qualifying",
+      "competitors": null,
+      "start_utc": "2026-11-28T18:00:00Z",
+      "venue": {
+        "name": "Lusail International Circuit",
+        "city": "Lusail",
+        "country": "Qatar",
+        "tz": "Asia/Qatar"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Qatar_Grand_Prix"
+    },
+    {
+      "id": "f1-2026-r22-race",
+      "sport": "Formula 1",
+      "team": "Ferrari",
+      "competition": "FIA Formula 1 World Championship",
+      "session": "Race",
+      "title": "Qatar Grand Prix — Race",
+      "competitors": null,
+      "start_utc": "2026-11-29T16:00:00Z",
+      "venue": {
+        "name": "Lusail International Circuit",
+        "city": "Lusail",
+        "country": "Qatar",
+        "tz": "Asia/Qatar"
+      },
+      "broadcast": "ESPN / ABC (US)",
+      "source": "jolpica-f1",
+      "source_url": "https://en.wikipedia.org/wiki/2026_Qatar_Grand_Prix"
     }
   ]
 }
